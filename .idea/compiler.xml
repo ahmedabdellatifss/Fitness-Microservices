@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aiservice" />
         <module name="user-servic" />
+        <module name="configserver" />
         <module name="activityservice" />
         <module name="eureka" />
       </profile>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activityservice" options="-parameters" />
       <module name="aiservice" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="user-servic" options="-parameters" />
     </option>
